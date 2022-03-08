@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.production.css" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" />
+    <title>Contact James Trotter</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <!-- WILL BE COMING BACK TO THIS FOR REAL PIC -->
+      <img class="logo page-header__item" src="img/IMG_logo.jpg" alt="logo" />
+      <!-- NAV BAR -->
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="contact.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Contact</h1>
+    <div>
+      James Trotter<br />
+      4949 Printers way Apt 126<br />
+      Frisco, TX<br />
+      Tel
+      <a href="tel:+870-834-4356" type="tel" aria-hidden="(870)834-4356"
+        >(870)834-4356</a
+      >
+      <br />
+      <a href="mailto:jitrotte@gmail.com">jitrotte@gmail.com</a><br />
+      <a href="mailto:jitrotte@gmail.com">Contact Me</a>
+    </div>
+
+    <form action="" method="post" id="contact-form">
+      <label class="standard-label" for="contact-email">E-mail: </label>
+      <input type="email" id="contact-email" required />
+
+      <label class="standard-label" for="telephone-number">Telephone: </label>
+      <input
+        type="tel"
+        id="telephone-number"
+        pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+      />
+
+      <label class="standard-label">Message: </label>
+      <textarea maxlength="240" required></textarea>
+
+      <input type="submit" value="Send message" />
+    </form>
+
+    <div class="btn--group">
+      <a href="#">Random Link</a>
+      <button>Random Button</button>
+      <button class="btn__secondary">Secondary Button</button>
+    </div>
+
+    <script src="tota11y.min.js"></script>
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <img
+          src="img/317712_code repository_github_repository_resource_icon.svg"
+          alt="Github"
+        />
+        <img src="img/104501_twitter_bird_icon (1).svg" alt="Twitter" />
+        <img src="img/107178_circle_linkedin_icon.svg" alt="LinkedIn" />
+      </div>
+    </footer>
+  </body>
+</html>
