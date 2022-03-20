@@ -38,6 +38,8 @@
   width: auto;
   min-height: auto;
   margin: 0;
+  border-radius: 8px;
+  box-shadow: 3px 5px 5px #ccc;
 }
 
 .logo {
@@ -88,6 +90,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 70px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -95,9 +98,15 @@
   text-align: center;
 }
 
+footer {
+  margin-top: 30px;
+}
+
 .profile {
   max-width: 700px;
   margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
 }
 
 body {
@@ -178,6 +187,11 @@ button:focus,
   background-color: #e0b354;
   color: #2b2b2b;
 }
+
+.send-message {
+  font-size: 18px;
+}
+
 .navigation-list__item--active {
   text-decoration: none;
 }
@@ -215,16 +229,19 @@ button:focus,
 
 h1 {
   text-align: center;
+  font-size: 28px;
 }
 
 .about {
   /* display: flex; */
   list-style-type: none;
   text-align: center;
+  line-height: 1.8;
 }
 
 .about-list__item {
-  margin-right: 30px;
+  margin-right: 32px;
+  line-height: 1.8;
 }
 
 .cv-button {
@@ -233,6 +250,19 @@ h1 {
   -ms-flex-align: center;
   align-items: center;
 }
+
+.contact-text {
+  text-align: center;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+#contact-form {
+  text-align: center;
+  margin-top: 26px;
+  font-size: 18px;
+}
+
 @-webkit-keyframes color-change {
   0% {
     fill: #edc655;
