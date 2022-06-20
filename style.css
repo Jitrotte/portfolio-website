@@ -183,6 +183,7 @@ h1 {
   /* display: flex; */
   list-style-type: none;
   text-align: center;
+  font-size: 18px;
 }
 
 .about-list__item {
@@ -193,6 +194,19 @@ h1 {
   display: inline-block;
   align-items: center;
 }
+
+.contact-text {
+  text-align: center;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+#contact-form {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
 @keyframes color-change {
   0% {
     fill: #edc655;
